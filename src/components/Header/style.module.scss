@@ -1,0 +1,24 @@
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list__item {
+  margin-right: 15px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.item__link {
+  color: rgb(216, 119, 119);
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.active__link {
+  color: #2f2f78;
+}
